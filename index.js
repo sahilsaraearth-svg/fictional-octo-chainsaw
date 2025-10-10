@@ -95,26 +95,3 @@
     // initial focus
     input.focus();
 })();
-
-
-// // Chat completion (POST /chat/completions)
-// const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-//   method: "POST",
-//   headers: {
-//     "Authorization": "Bearer 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",
-//     "Content-Type": "application/json"
-//   },
-//   body: JSON.stringify({
-//     "model": "deepseek/deepseek-chat-v3.1:free",
-//     "messages": [
-//       {
-//         "content": "what is open source project ",
-//         "role": "user"
-//       }
-//     ]
-//   }),
-// });
-
-// const body = await response.json();
-// // console.log(body);
-// console.log(body.choices[0].message.content);
